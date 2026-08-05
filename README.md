@@ -1,6 +1,6 @@
 # Repository Coverage
 
-[Full report](https://htmlpreview.github.io/?https://github.com/Aiven-Open/karapace/blob/python-coverage-comment-action-data/htmlcov/index.html)
+[Full report](https://htmlpreview.github.io/?https://github.com/wrongbutworks/karapace/blob/python-coverage-comment-action-data/htmlcov/index.html)
 
 | Name                                                     |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
 |--------------------------------------------------------- | -------: | -------: | -------: | -------: | ------: | --------: |
@@ -11,8 +11,8 @@
 | src/karapace/api/factory.py                              |       42 |       18 |        0 |        0 |     57% |38-47, 57-73 |
 | src/karapace/api/forward\_client.py                      |       65 |        3 |       16 |        3 |     93% |69-\>72, 81, 133, 148 |
 | src/karapace/api/http\_handlers/\_\_init\_\_.py          |       19 |       11 |        2 |        0 |     38% |     16-28 |
-| src/karapace/api/middlewares/\_\_init\_\_.py             |       61 |        1 |       16 |        1 |     97% |        34 |
-| src/karapace/api/oidc/middleware.py                      |      124 |        8 |       46 |        5 |     92% |93, 112, 151-\>153, 172, 184-185, 211-213 |
+| src/karapace/api/middlewares/\_\_init\_\_.py             |       65 |        0 |       16 |        0 |    100% |           |
+| src/karapace/api/oidc/validator.py                       |      114 |        6 |       40 |        4 |     94% |89, 105, 143-\>145, 158, 197-199 |
 | src/karapace/api/routers/compatibility.py                |       21 |        1 |        2 |        1 |     91% |        42 |
 | src/karapace/api/routers/config.py                       |       64 |       17 |       22 |        4 |     64% |37-40, 55, 80, 99-104, 124-129 |
 | src/karapace/api/routers/errors.py                       |       42 |        2 |        0 |        0 |     95% |     52-53 |
@@ -36,18 +36,18 @@
 | src/karapace/core/avro\_dataclasses/introspect.py        |       84 |       13 |       48 |        3 |     82% |41, 69, 112-126 |
 | src/karapace/core/avro\_dataclasses/models.py            |       97 |        8 |       32 |        4 |     91% |72-75, 105-106, 108, 111, 131 |
 | src/karapace/core/avro\_dataclasses/schema.py            |       33 |        0 |        0 |        0 |    100% |           |
-| src/karapace/core/client.py                              |      133 |        1 |       18 |        0 |     99% |        42 |
+| src/karapace/core/client.py                              |      133 |        0 |       18 |        0 |    100% |           |
 | src/karapace/core/compatibility/\_\_init\_\_.py          |       15 |        0 |        0 |        0 |    100% |           |
-| src/karapace/core/compatibility/jsonschema/checks.py     |      371 |       44 |      162 |       18 |     85% |203, 253, 266, 335, 426, 436-447, 522-534, 547-551, 576, 600, 662, 685, 765-777, 788-798, 823-826, 887, 897-902, 922 |
+| src/karapace/core/compatibility/jsonschema/checks.py     |      371 |       38 |      162 |       18 |     86% |203, 253, 266, 335, 426, 436-447, 522-534, 547-551, 576, 600, 662, 685, 768, 777, 788-798, 887, 897-902, 922 |
 | src/karapace/core/compatibility/jsonschema/types.py      |      105 |        0 |        0 |        0 |    100% |           |
-| src/karapace/core/compatibility/jsonschema/utils.py      |      132 |       22 |       62 |       11 |     80% |33, 47, 52, 106, 128-138, 151, 200-204, 210, 312-\>311, 331, 340, 356, 368 |
+| src/karapace/core/compatibility/jsonschema/utils.py      |      176 |       24 |       88 |       13 |     83% |89, 103, 110, 143-\>147, 176-177, 230, 252-262, 275, 324-328, 334, 436-\>435, 455, 464, 480, 492 |
 | src/karapace/core/compatibility/protobuf/checks.py       |       17 |        0 |        6 |        0 |    100% |           |
-| src/karapace/core/compatibility/schema\_compatibility.py |       61 |       20 |       28 |        6 |     57% |42, 56-66, 77, 82, 86-\>127, 98-125, 139 |
-| src/karapace/core/config.py                              |      300 |       96 |       76 |        6 |     60% |36-37, 61-70, 218, 247, 276-280, 290-\>294, 294-\>300, 310, 311-\>315, 335-343, 371-376, 383-385, 392-394, 399, 405, 409, 413, 418-444, 448-487 |
-| src/karapace/core/constants.py                           |        8 |        0 |        0 |        0 |    100% |           |
+| src/karapace/core/compatibility/schema\_compatibility.py |       66 |       18 |       30 |        4 |     65% |43, 57-67, 110-\>151, 122-149, 165 |
+| src/karapace/core/config.py                              |      293 |       96 |       74 |        6 |     59% |41-42, 66-75, 222, 240, 269-273, 283-\>287, 287-\>293, 303, 304-\>308, 328-336, 364-369, 376-378, 385-387, 392, 398, 402, 406, 411-437, 441-480 |
+| src/karapace/core/constants.py                           |       18 |        0 |        0 |        0 |    100% |           |
 | src/karapace/core/container.py                           |        8 |        0 |        0 |        0 |    100% |           |
 | src/karapace/core/coordinator/master\_coordinator.py     |       99 |       15 |       18 |        6 |     80% |83-85, 88-92, 102-\>104, 107, 109-110, 153-158, 183, 193 |
-| src/karapace/core/coordinator/schema\_coordinator.py     |      514 |       42 |      140 |       11 |     91% |199, 214-215, 277-286, 299-302, 322-323, 335-336, 500, 586-591, 611-615, 633, 643-647, 680-\>exit, 685-\>688, 699-\>726, 834, 851, 932, 976-977, 984-985 |
+| src/karapace/core/coordinator/schema\_coordinator.py     |      514 |       40 |      140 |       10 |     91% |199, 277-286, 299-302, 322-323, 335-336, 500, 586-591, 611-615, 633, 643-647, 680-\>exit, 685-\>688, 699-\>726, 834, 851, 932, 976-977, 984-985 |
 | src/karapace/core/dataclasses.py                         |        8 |        0 |        0 |        0 |    100% |           |
 | src/karapace/core/dependency.py                          |       40 |       10 |        8 |        2 |     67% |45, 49, 53-54, 58, 65, 68, 71-73 |
 | src/karapace/core/errors.py                              |       37 |        0 |        0 |        0 |    100% |           |
@@ -57,7 +57,7 @@
 | src/karapace/core/instrumentation/prometheus.py          |       39 |        0 |        0 |        0 |    100% |           |
 | src/karapace/core/instrumentation/tracer.py              |       66 |        2 |       12 |        1 |     96% |42, 45, 61-\>exit |
 | src/karapace/core/kafka/admin.py                         |      107 |       10 |       26 |        1 |     86% |186-200, 240-243 |
-| src/karapace/core/kafka/common.py                        |       89 |        7 |       20 |        7 |     87% |59, 61, 63, 79, 178, 214, 219 |
+| src/karapace/core/kafka/common.py                        |       89 |        5 |       20 |        5 |     91% |59, 63, 79, 178, 214 |
 | src/karapace/core/kafka/consumer.py                      |      145 |       15 |       20 |        3 |     89% |49-50, 63, 68, 100, 103-104, 135-136, 162-163, 182-183, 188-189 |
 | src/karapace/core/kafka/producer.py                      |       67 |        2 |        6 |        0 |     97% |     68-69 |
 | src/karapace/core/kafka/types.py                         |        8 |        0 |        0 |        0 |    100% |           |
@@ -89,7 +89,7 @@
 | src/karapace/core/protobuf/option\_element.py            |       80 |        2 |       30 |        3 |     95% |51, 81-\>84, 88 |
 | src/karapace/core/protobuf/option\_reader.py             |      100 |       17 |       46 |        4 |     80% |60, 100, 111-115, 121-127, 135-139 |
 | src/karapace/core/protobuf/proto\_file\_element.py       |       92 |        4 |       44 |        3 |     95% |23-\>exit, 35, 121, 131, 146 |
-| src/karapace/core/protobuf/proto\_normalizations.py      |      115 |        4 |       10 |        2 |     95% |150-153, 210, 221 |
+| src/karapace/core/protobuf/proto\_normalizations.py      |      142 |        4 |       18 |        2 |     96% |221-224, 290, 301 |
 | src/karapace/core/protobuf/proto\_parser.py              |      382 |        9 |      130 |       10 |     96% |108, 116, 293, 319, 347, 484, 512, 514-\>517, 551, 614 |
 | src/karapace/core/protobuf/proto\_type.py                |      130 |       19 |       26 |        5 |     81% |18-\>20, 123, 147-148, 158, 161-170, 173, 179, 182, 186, 198, 203, 211, 250 |
 | src/karapace/core/protobuf/protobuf\_to\_dict.py         |      185 |       38 |      102 |       17 |     79% |104-105, 116, 125, 130, 143, 159, 212-221, 239, 249, 252, 254, 256-257, 261-262, 264, 270-275, 278-280, 287, 290-291, 298-299, 324-326 |
@@ -98,15 +98,15 @@
 | src/karapace/core/protobuf/reserved\_element.py          |       27 |        1 |       10 |        1 |     95% |        39 |
 | src/karapace/core/protobuf/rpc\_element.py               |       30 |        0 |        8 |        0 |    100% |           |
 | src/karapace/core/protobuf/schema.py                     |      278 |       14 |      150 |        8 |     94% |76-78, 81-83, 178, 200, 205, 278, 290, 301, 448, 505 |
-| src/karapace/core/protobuf/serialization.py              |      261 |       34 |      172 |       39 |     83% |60, 62, 132, 136, 138, 140, 142, 144, 148, 150, 152, 158, 160, 164, 215, 231-\>233, 233-\>235, 259, 272-\>261, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 338-\>341, 350-\>347 |
+| src/karapace/core/protobuf/serialization.py              |      270 |       35 |      178 |       39 |     83% |60, 62, 82, 143, 147, 149, 151, 153, 155, 159, 161, 163, 169, 171, 224, 240-\>242, 242-\>244, 268, 281-\>270, 297-298, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 350-\>353, 362-\>359 |
 | src/karapace/core/protobuf/service\_element.py           |       28 |        0 |        8 |        0 |    100% |           |
 | src/karapace/core/protobuf/syntax.py                     |       12 |        1 |        0 |        0 |     92% |        24 |
 | src/karapace/core/protobuf/syntax\_reader.py             |      262 |       13 |      124 |       15 |     92% |55-56, 68, 107, 170-\>181, 193-194, 216, 220-\>223, 227-\>247, 248, 249-\>260, 253-\>259, 261, 266-\>275, 301-\>324, 314-315, 346, 369 |
 | src/karapace/core/protobuf/type\_element.py              |       22 |        6 |        0 |        0 |     73% |34, 37-38, 41-42, 45 |
 | src/karapace/core/protobuf/type\_tree.py                 |       64 |        2 |       16 |        3 |     94% |66, 70-\>68, 73 |
 | src/karapace/core/protobuf/utils.py                      |       44 |        2 |       18 |        2 |     94% |    21, 53 |
-| src/karapace/core/schema\_models.py                      |      203 |       32 |       52 |        9 |     83% |88-89, 96-\>101, 99, 131, 155-157, 162-169, 176, 188-197, 236, 267-268, 273-274, 286-298, 384, 390-391, 394, 397-399, 424, 478-\>exit |
-| src/karapace/core/schema\_reader.py                      |      473 |      123 |      106 |       18 |     73% |208-218, 226-236, 255-263, 268-\>285, 278-279, 293-304, 346-355, 366-378, 419-422, 430-431, 440, 468, 482, 489-498, 510-\>521, 601-\>604, 608-609, 610-\>exit, 616-617, 620-625, 631, 635-639, 643-644, 657-659, 671-675, 691-\>705, 700, 713-714, 736-737, 753, 756-759, 778-790, 800, 802-804 |
+| src/karapace/core/schema\_models.py                      |      207 |       30 |       54 |        9 |     84% |97-98, 105-\>110, 108, 140, 164-166, 171-178, 185, 197-206, 245, 276-277, 295-307, 393, 399-400, 403, 406-408, 433, 487-\>exit |
+| src/karapace/core/schema\_reader.py                      |      472 |      123 |      106 |       18 |     73% |207-217, 225-235, 254-262, 267-\>284, 277-278, 292-303, 345-354, 365-377, 418-421, 429-430, 439, 467, 481, 488-497, 509-\>520, 600-\>603, 607-608, 609-\>exit, 615-616, 619-624, 630, 634-638, 642-643, 656-658, 670-674, 690-\>704, 699, 712-713, 735-736, 752, 755-758, 777-789, 799, 801-803 |
 | src/karapace/core/schema\_references.py                  |       37 |        3 |        2 |        1 |     90% |27, 41, 61 |
 | src/karapace/core/schema\_registry.py                    |      259 |       54 |       78 |       11 |     78% |84, 87-88, 91-93, 96-99, 112, 130-132, 140-143, 168, 188-190, 196, 209, 218, 253, 258, 269, 282-293, 374-376, 398-406, 409, 412, 434, 436, 447-448, 454 |
 | src/karapace/core/schema\_type.py                        |        6 |        0 |        0 |        0 |    100% |           |
@@ -115,7 +115,7 @@
 | src/karapace/core/sentry/sentry\_client\_api.py          |       13 |        2 |        0 |        0 |     85% |    24, 27 |
 | src/karapace/core/serialization.py                       |      322 |       28 |      104 |       14 |     90% |118, 160, 180, 191, 195, 221-222, 265, 279-280, 287, 301-302, 346, 401-\>404, 435, 444, 469, 547-552, 558-561, 579, 588 |
 | src/karapace/core/stats.py                               |       44 |        8 |        0 |        0 |     82% |71-74, 89-97, 100 |
-| src/karapace/core/typing.py                              |       99 |        7 |       10 |        3 |     91% |54, 58, 64, 108, 120, 142, 146 |
+| src/karapace/core/typing.py                              |      102 |        7 |       10 |        3 |     91% |77, 81, 87, 131, 143, 165, 169 |
 | src/karapace/core/utils.py                               |      128 |       49 |       40 |        6 |     54% |50, 58-61, 66-72, 76-83, 95-97, 119-128, 162, 163-\>165, 190, 194, 198, 240, 255-273 |
 | src/karapace/kafka\_rest\_apis/\_\_init\_\_.py           |      642 |       74 |      148 |       15 |     88% |109-112, 312-331, 335-337, 498, 502, 509, 512, 523, 528-\>566, 552-562, 707, 750-751, 762-\>exit, 777-783, 826, 845, 868, 879, 904-905, 928, 997-998, 1011-1012, 1032, 1077-1082, 1126, 1185, 1235-1237, 1241-1242, 1246-1248, 1250-1252, 1259-1260, 1275, 1316, 1326 |
 | src/karapace/kafka\_rest\_apis/\_\_main\_\_.py           |       29 |        1 |        2 |        1 |     94% |        43 |
@@ -128,7 +128,7 @@
 | src/karapace/rapu.py                                     |      261 |       67 |       76 |       18 |     70% |111, 115, 148, 151, 235-258, 283-287, 292, 298-303, 307, 314, 317-\>320, 320-\>330, 322-\>325, 325-\>328, 331-332, 335, 339, 341-342, 347-354, 359-364, 371, 374-375, 383, 405-408, 444, 451, 467, 481-483, 486-488 |
 | src/karapace/statsd.py                                   |       61 |       30 |       16 |        1 |     42% |37-39, 42, 51-58, 65-87 |
 | src/karapace/version.py                                  |       11 |        0 |        0 |        0 |    100% |           |
-| **TOTAL**                                                | **11083** | **1659** | **3094** |  **411** | **83%** |           |
+| **TOTAL**                                                | **11171** | **1644** | **3130** |  **406** | **83%** |           |
 
 13 empty files skipped.
 
@@ -139,20 +139,20 @@ Below are examples of the badges you can use in your main branch `README` file.
 
 ### Direct image
 
-[![Coverage badge](https://raw.githubusercontent.com/Aiven-Open/karapace/python-coverage-comment-action-data/badge.svg)](https://htmlpreview.github.io/?https://github.com/Aiven-Open/karapace/blob/python-coverage-comment-action-data/htmlcov/index.html)
+[![Coverage badge](https://raw.githubusercontent.com/wrongbutworks/karapace/python-coverage-comment-action-data/badge.svg)](https://htmlpreview.github.io/?https://github.com/wrongbutworks/karapace/blob/python-coverage-comment-action-data/htmlcov/index.html)
 
 This is the one to use if your repository is private or if you don't want to customize anything.
 
 ### [Shields.io](https://shields.io) Json Endpoint
 
-[![Coverage badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Aiven-Open/karapace/python-coverage-comment-action-data/endpoint.json)](https://htmlpreview.github.io/?https://github.com/Aiven-Open/karapace/blob/python-coverage-comment-action-data/htmlcov/index.html)
+[![Coverage badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/wrongbutworks/karapace/python-coverage-comment-action-data/endpoint.json)](https://htmlpreview.github.io/?https://github.com/wrongbutworks/karapace/blob/python-coverage-comment-action-data/htmlcov/index.html)
 
 Using this one will allow you to [customize](https://shields.io/endpoint) the look of your badge.
 It won't work with private repositories. It won't be refreshed more than once per five minutes.
 
 ### [Shields.io](https://shields.io) Dynamic Badge
 
-[![Coverage badge](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=coverage&query=%24.message&url=https%3A%2F%2Fraw.githubusercontent.com%2FAiven-Open%2Fkarapace%2Fpython-coverage-comment-action-data%2Fendpoint.json)](https://htmlpreview.github.io/?https://github.com/Aiven-Open/karapace/blob/python-coverage-comment-action-data/htmlcov/index.html)
+[![Coverage badge](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=coverage&query=%24.message&url=https%3A%2F%2Fraw.githubusercontent.com%2Fwrongbutworks%2Fkarapace%2Fpython-coverage-comment-action-data%2Fendpoint.json)](https://htmlpreview.github.io/?https://github.com/wrongbutworks/karapace/blob/python-coverage-comment-action-data/htmlcov/index.html)
 
 This one will always be the same color. It won't work for private repos. I'm not even sure why we included it.
 
